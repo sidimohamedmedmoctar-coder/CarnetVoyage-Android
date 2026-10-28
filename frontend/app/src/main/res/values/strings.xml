@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CarnetVoyage_Mahmoud</string>
+    <string name="trip_dates_display">"📅 %1$s"</string>
+    <string name="shared_by_display">"🤝 Partagé par : %1$s"</string>
+    <string name="memories_tab_title">"📸 Souvenirs (%1$d)"</string>
+    <string name="delete_memory_confirm_title">"Supprimer ce souvenir ?"</string>
+    <string name="delete_memory_confirm_message">"« %1$s »\n\nCette action est irréversible."</string>
+    <string name="delete_button">"Supprimer"</string>
+    <string name="cancel_button">"Annuler"</string>
+    <string name="memory_deleted_success">"Souvenir supprimé 🗑️"</string>
+    <string name="session_expired_msg">"Session expirée. Veuillez vous reconnecter."</string>
+    <string name="network_error_msg">"Erreur réseau : %1$s"</string>
+    <string name="map_date_format">"d MMM yyyy 'à' HH'h'mm"</string>
+
+    <!-- MainActivity -->
+    <string name="welcome_user">"Bonjour %1$s"</string>
+    <string name="no_trips_title">"Aucun voyage pour l'instant"</string>
+    <string name="no_trips_subtitle">"Appuyez sur + pour créer votre premier voyage"</string>
+    <string name="no_shared_trips_title">"Aucun voyage partagé"</string>
+    <string name="no_shared_trips_subtitle">"Les voyages partagés avec vous apparaîtront ici"</string>
+    <string name="not_owner_msg">"Ce voyage ne vous appartient pas."</string>
+    <string name="delete_trip_confirm_title">"Supprimer ce voyage ?"</string>
+    <string name="delete_trip_confirm_message">"« %1$s »\n\nCette action est irréversible. Tous les souvenirs associés seront également supprimés."</string>
+    <string name="trip_deleted_success">"Voyage supprimé 🗑️"</string>
+    <string name="logout_confirm_title">"Déconnexion"</string>
+    <string name="logout_confirm_message">"Voulez-vous vraiment vous déconnecter ?"</string>
+    <string name="logout_button">"Déconnecter"</string>
+</resources>

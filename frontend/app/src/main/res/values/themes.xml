@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CarnetVoyage_Mahmoud" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Main colors -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <!-- Surface colors -->
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#757575</item>
+    </style>
+
+    <style name="Theme.CarnetVoyage_Mahmoud" parent="Base.Theme.CarnetVoyage_Mahmoud" />
+
+    <!-- Thème du Splash Screen (doit hériter de Theme.SplashScreen) -->
+    <style name="Theme.CarnetVoyage.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_plane</item>
+        <item name="postSplashScreenTheme">@style/Theme.CarnetVoyage_Mahmoud</item>
+    </style>
+</resources>

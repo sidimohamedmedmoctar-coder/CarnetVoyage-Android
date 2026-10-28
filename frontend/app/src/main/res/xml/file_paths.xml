@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--
+        Expose le dossier cache de l'app pour les photos prises avec la caméra.
+        "camera_photos" est le nom du sous-dossier qu'on crée dans getCacheDir().
+        Le path="." expose tout le cache, ce qui est suffisant pour notre usage.
+    -->
+    <cache-path
+        name="camera_photos"
+        path="." />
+</paths>
